@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+	color: white;
+}
+
+body {
+	background-image: url('https://mti.com/wp-content/uploads/2019/01/Security_Datacentre_MTI_Technology_blog.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+input {
+	color: black;
+	padding: 0.5em;
+	width: 25em;
+}
+
+#logo {
+	text-align: center;
+	margin-top: 2em;
+}
+
+#logo h1 {
+	font-family: 'Playfair Display', serif;
+	background-color: rgb(53,141,7);
+	background-image: linear-gradient(180deg, rgba(53,141,7,1) 27%, rgba(255,0,0,1) 100%);
+	background-size: 100%;
+  	background-repeat: repeat;
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent; 
+  	-moz-background-clip: text;
+  	-moz-text-fill-color: transparent;
+}
+
+#form {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 2em;
+}
+
+form {
+	background-color: #1b3c89;
+	background-image: linear-gradient(160deg, #1b3c89 0%, #80D0C7 100%);
+	padding: 2em;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	border-radius: 5px;
+}
+
+#divbutton {
+	margin-top: 1.5em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+button {
+	background-color: white;
+	color:  #1B3C89;
+	border: none;
+	border-radius: 5px;
+	font-size: 1.1em;
+	padding: 0.5em 2em;
+	transition: all 0.5s ease;
+}
+
+button:hover {
+	transform: scale(1.1);
+}
+
+#signin {
+	margin-top: 1em;
+	margin-left: 1.5em;
+}
